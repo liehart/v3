@@ -22,3 +22,26 @@
     clear: both;
     background-color: black;
 }
+
+.typeloop {
+    .span-loop {
+        font-size: 2.3em;
+        font-weight: bold;
+        color: wheat;
+    }
+
+    .span-fix {
+        font-size: 2.3em;
+        font-weight: bold;
+        color: rgb(18, 192, 207);
+
+        strong {
+            color: rgb(8, 216, 235);
+            font-weight: normal;
+        }
+    }
+}
+
+.socialicon {
+    margin: 10px;
+}

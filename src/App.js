@@ -1,13 +1,37 @@
 import React, { Component } from "react";
 import rawdata from "./data.json";
 import "./style.scss";
+import TextLoop from "react-text-loop";
+import {Helmet} from "react-helmet";
+import { SocialIcon } from 'react-social-icons';
 
 class App extends Component {
 	render() {
 		const data = rawdata;
 		return (
 			<>
+			    <Helmet>
+                <meta charSet="utf-8" />
+                <title>Vriyas Hartama</title>
+                <link rel="canonical" href="http://vriyas.com/" />
+				<meta name="description" content="Vriyas Hartama's Stuff" />
+            </Helmet>
 				<section className="section hero-w">
+					<div className="container">
+					<div className="typeloop">
+						<TextLoop interval={1000}>
+							<span className="span-loop">こんにちは</span>
+							<span className="span-loop">Hello</span>
+							<span className="span-loop">안녕하세요</span>
+							<span className="span-loop">你好</span>
+							<span className="span-loop">Ciao</span>
+						</TextLoop>&nbsp;
+                <p className="span-fix"><strong>I'm</strong> Vriyas <strong>Hartama</strong></p>
+					</div>
+					<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://linkedin.com/in/vriyas-hartama" />
+					<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://instagram.com/hartamaputra" />
+					<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://github.com/haruute0" />
+					</div>
 				</section>
 				<section className="section">
 					<div className="container">
@@ -17,10 +41,10 @@ class App extends Component {
 						<div className="about-me">
 							<p>
 								Hello there, Vriyas Hartama here. <span role="img">😊</span>
-					</p>
+							</p>
 							<p>
 								I'm a software developer currently pursuing my Engineering of Informatics degree at <a href="https://uajy.ac.id">University</a>. Beside it I also a open source-er in my spare time.
-			
+
 					</p>
 
 							<p>
@@ -83,15 +107,15 @@ class App extends Component {
 							<p>
 								Made with
                         		<span> ❤ </span>
-								by <strong>                        
+								by <strong>
 									<a
-									href="https://vriyas.com"
-									target="_blank"
-									rel="noopener noreferrer"
+										href="https://vriyas.com"
+										target="_blank"
+										rel="noopener noreferrer"
 									>
-								<strong>Vriyas Hartama</strong></a
-								></strong>. &copy; 2019
-		
+										<strong>Vriyas Hartama</strong></a
+									></strong>. &copy; 2019
+
                     </p>
 						</div>
 					</div>
