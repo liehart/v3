@@ -1,0 +1,24 @@
+@import "../node_modules/bulma/bulma.sass";
+
+.columns-w {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-w {
+    margin-bottom: 20px;
+}
+
+.column-w {
+    box-shadow: 4px 9px 40px 2px rgba(7, 16, 75, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px 20px;
+    margin: 15px 10px;
+}
+
+.hero-w {
+    min-height: 100vh;
+    clear: both;
+    background-color: black;
+}

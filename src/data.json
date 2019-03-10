@@ -1,0 +1,51 @@
+{
+    "projects": [
+        {
+            "name": "I2C 2019 Website",
+            "uri": "i2c-website",
+            "tags": [
+                "frontend",
+                "css",
+                "html"
+            ],
+            "description": "Develop front end design for I2C Website",
+            "projUrl": "https://ifest-uajy.com/i2c",
+            "date": "2018-12"
+        },
+
+        {
+            "name": "Schedule Scrapper",
+            "uri": "schedule-scrapper",
+            "tags": [
+                "API",
+                "React",
+                "Flask"
+            ],
+            "description": "A tool that convert basic scheduling system in college dashboard into compact weekly basis",
+            "projUrl": "https://jadwal.vriyas.com/",
+            "date": "2019-01"
+        },
+        {
+            "name": "UAJY Siloam Hackathon Website",
+            "uri": "hackfest-website",
+            "tags": [
+                "frontend",
+                "css",
+                "html"
+            ],
+            "description": "Develop front end design for HackFest Website",
+            "projUrl": "https://ifest-uajy.com/",
+            "date": "2019-02"
+        },
+        {
+            "name": "Vriyas Hartama Website",
+            "uri": "v2-vriyas",
+            "tags": [
+                "React"
+            ],
+            "description": "This website, the site that you're currently looking at.",
+            "projUrl": "https://vriyas.com/",
+            "date": "2019-03"
+        }
+    ]
+}
