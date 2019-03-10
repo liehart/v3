@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import rawdata from "./data.json";
 import "./style.scss";
 import TextLoop from "react-text-loop";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import { SocialIcon } from 'react-social-icons';
 
 class App extends Component {
@@ -10,27 +10,27 @@ class App extends Component {
 		const data = rawdata;
 		return (
 			<>
-			    <Helmet>
-                <meta charSet="utf-8" />
-                <title>Vriyas Hartama</title>
-                <link rel="canonical" href="http://vriyas.com/" />
-				<meta name="description" content="Vriyas Hartama's Stuff" />
-            </Helmet>
+				<Helmet>
+					<meta charSet="utf-8" />
+					<title>Vriyas Hartama</title>
+					<link rel="canonical" href="http://vriyas.com/" />
+					<meta name="description" content="Vriyas Hartama's Stuff" />
+				</Helmet>
 				<section className="section hero-w">
 					<div className="container">
-					<div className="typeloop">
-						<TextLoop interval={1000}>
-							<span className="span-loop">こんにちは</span>
-							<span className="span-loop">Hello</span>
-							<span className="span-loop">안녕하세요</span>
-							<span className="span-loop">你好</span>
-							<span className="span-loop">Ciao</span>
-						</TextLoop>&nbsp;
+						<div className="typeloop">
+							<TextLoop interval={1000}>
+								<span className="span-loop">こんにちは</span>
+								<span className="span-loop">Hello</span>
+								<span className="span-loop">안녕하세요</span>
+								<span className="span-loop">你好</span>
+								<span className="span-loop">Ciao</span>
+							</TextLoop>&nbsp;
                 <p className="span-fix"><strong>I'm</strong> Vriyas <strong>Hartama</strong></p>
-					</div>
-					<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://linkedin.com/in/vriyas-hartama" />
-					<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://instagram.com/hartamaputra" />
-					<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://github.com/haruute0" />
+						</div>
+						<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://linkedin.com/in/vriyas-hartama" />
+						<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://instagram.com/hartamaputra" />
+						<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://github.com/haruute0" />
 					</div>
 				</section>
 				<section className="section">
@@ -40,25 +40,28 @@ class App extends Component {
 							<p className="about-desc">Who am i?</p>
 						</div>
 						<div className="about-me">
-						<p className="pseudo-indent">
-							<strong>Hello there, Vriyas Hartama here.</strong> <span role="img">😊</span>
+							<p className="pseudo-indent">
+								<strong>Hello there, Vriyas Hartama here.</strong> <span role="img">😊</span>
 							</p>
 							<p className="content-indent">
-								I'm a software developer currently pursuing my Engineering of Informatics degree at <a href="https://uajy.ac.id">University</a>. Beside it I also a open source-er in my spare time.
+								I'm a software developer currently pursuing my Engineering of Informatics degree at <a target="_blank"
+									rel="noopener noreferrer" href="https://uajy.ac.id">University</a>. Beside it I also a open source-er in my spare time.
 
 					</p>
 
 							<p className="pseudo-indent">
 								<strong>2018 was a greatest year of my life, Why?</strong>
 							</p><p className="content-indent">
-								Absolutely, I've a chance to step on Google HQ in California. What?! How come? Read the story <a href="https://medium.com/@haruute/google-code-in-experience-with-metabrainz-foundation-997ca758e076">here</a>.
+								Absolutely, I've a chance to step on Google HQ in California. What?! How come? Read the story <a target="_blank"
+									rel="noopener noreferrer" href="https://medium.com/@haruute/google-code-in-experience-with-metabrainz-foundation-997ca758e076">here</a>.
 					</p>
-					<p className="pseudo-indent">
+							<p className="pseudo-indent">
 								<strong>What did i like?</strong>
 							</p><p className="content-indent">
-								I'd like do build something with Python. Really, Python was fun. You could check my <a href="https://github.com/haruute0/">GitHub</a> or find out my <a href="#projects">projects page</a>.
+								I'd like do build something with Python. Really, Python was fun. You could check my <a href="https://github.com/haruute0/" target="_blank"
+									rel="noopener noreferrer">GitHub</a> or find out my <a href="#projects">projects page</a>.
 					</p>
-					<p className="pseudo-indent">
+							<p className="pseudo-indent">
 								<strong>Anything you else want to hear?</strong>
 							</p><p className="content-indent">
 								Surely, please drop an <a href="mailto:vriyashartama@gmail.com">email</a> and I'll answer as soon as possible.
@@ -72,7 +75,7 @@ class App extends Component {
 					<div className="writeups-sfo">
 						San Francisco
 					</div>
-				
+
 				</section>
 
 				<section className="section" id="projects">
@@ -101,7 +104,8 @@ class App extends Component {
 															)
 														})}
 													</div>
-													<a class="button" href={v.projUrl}>Project Website</a>
+													<a class="button" href={v.projUrl} target="_blank"
+														rel="noopener noreferrer">Project Website</a>
 												</div>
 											);
 										})}
@@ -114,14 +118,14 @@ class App extends Component {
 
 				<section className="section usa" id="resume">
 
-<div className="writeups-sfo">
-	Resume
-</div>
+					<div className="writeups-sfo">
+						Resume
+					</div>
 
-</section>
+				</section>
 
-<section className="section contact-w">
-<div className="container">
+				<section className="section contact-w">
+					<div className="container">
 						<div className="projects-w">
 							<p className="about-title">Contact Me</p>
 							<p className="about-desc">Anything you else want to hear? Feel free to reach me with contact form below.</p>
@@ -130,8 +134,8 @@ class App extends Component {
 						<center>Not implemented yet</center>
 
 
-						</div>
-</section>
+					</div>
+				</section>
 
 				<section className="section">
 					<div className="container">
