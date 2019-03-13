@@ -1,6 +1,18 @@
 {
     "projects": [
         {
+            "name": "Kagari Line Bot",
+            "uri": "kagari",
+            "tags": [
+                "python",
+                "mongodb",
+                "firebase",
+                "heroku"
+            ],
+            "description": "Just a random bot made by a college student lives in Heroku.",
+            "projUrl": "https://github.com/haruute0/kagari/",
+            "date": "2018-09"
+        },{
             "name": "I2C 2019 Website",
             "uri": "i2c-website",
             "tags": [
