@@ -28,9 +28,9 @@ class App extends Component {
 							</TextLoop>&nbsp;
                 <p className="span-fix"><strong>I'm</strong> Vriyas <strong>Hartama</strong></p>
 						</div>
-						<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://linkedin.com/in/vriyas-hartama" />
-						<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://instagram.com/hartamaputra" />
-						<SocialIcon className="socialicon" style={{ height: 35, width: 35 }} url="http://github.com/haruute0" />
+						<SocialIcon className="socialicon" bgColor="#f0f0f0" style={{ height: 35, width: 35 }} url="http://linkedin.com/in/vriyas-hartama" />
+						<SocialIcon className="socialicon" bgColor="#f0f0f0" style={{ height: 35, width: 35 }} url="http://instagram.com/hartamaputra" />
+						<SocialIcon className="socialicon" bgColor="#f0f0f0" style={{ height: 35, width: 35 }} url="http://github.com/haruute0" />
 					</div>
 				</section>
 				<section className="section">
@@ -41,31 +41,31 @@ class App extends Component {
 						</div>
 						<div className="about-me">
 							<p className="pseudo-indent">
-								<strong>Hello there, Vriyas Hartama here.</strong> <span role="img">😊</span>
+								<strong>Hello there, Vriyas Hartama here.</strong>
+								<span role="img" aria-label="smiley">😊</span>
 							</p>
 							<p className="content-indent">
 								I'm a software developer currently pursuing my Engineering of Informatics degree at <a target="_blank"
 									rel="noopener noreferrer" href="https://uajy.ac.id">University</a>. Beside it I also a open source-er in my spare time.
-
-					</p>
-
+							</p>
 							<p className="pseudo-indent">
 								<strong>2018 was a greatest year of my life, Why?</strong>
 							</p><p className="content-indent">
 								Absolutely, I've a chance to step on Google HQ in California. What?! How come? Read the story <a target="_blank"
 									rel="noopener noreferrer" href="https://medium.com/@haruute/google-code-in-experience-with-metabrainz-foundation-997ca758e076">here</a>.
-					</p>
+							</p>
 							<p className="pseudo-indent">
 								<strong>What did i like?</strong>
-							</p><p className="content-indent">
+							</p>
+							<p className="content-indent">
 								I'd like do build something with Python. Really, Python was fun. You could check my <a href="https://github.com/haruute0/" target="_blank"
 									rel="noopener noreferrer">GitHub</a> or find out my <a href="#projects">projects page</a>.
-					</p>
+							</p>
 							<p className="pseudo-indent">
 								<strong>Anything you else want to hear?</strong>
 							</p><p className="content-indent">
 								Surely, please drop an <a href="mailto:vriyashartama@gmail.com">email</a> and I'll answer as soon as possible.
-					</p>
+							</p>
 						</div>
 					</div>
 				</section>

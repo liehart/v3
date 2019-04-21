@@ -34,23 +34,23 @@
     .span-loop {
         font-size: 2.3em;
         font-weight: bold;
-        color: wheat;
+        color: white;
     }
 
     .span-fix {
         font-size: 2.3em;
         font-weight: bold;
-        color: rgb(18, 192, 207);
+        color: rgb(180, 230, 235);
 
         strong {
-            color: rgb(8, 216, 235);
+            color: rgb(109, 243, 255);
             font-weight: normal;
         }
     }
 }
 
 .socialicon {
-    margin: 10px;   
+    margin: 10px;
 }
 
 .about-title {
@@ -69,10 +69,19 @@
     border-radius: 8px;
     background-color: white;
     padding: 30px 50px;
-    max-width: 60vw;
+    /* use media query instead.
+    max-width: 60vw; */
     margin: 0 auto;
     margin-bottom: 100px;
 }
+
+/* Using plain CSS */
+@media (min-width: 1000px) {
+    .about-me {
+        max-width: 60vw;
+    }
+}
+
 
 .pseudo-indent {
     margin: 10px 0;
